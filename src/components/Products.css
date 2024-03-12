@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #0e2335;
+    padding: 16px;
+    border-radius: .5rem;
+    width: fit-content;
+}
+
+.card .card__body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 10px;
+    gap: 16px
+}
+
+.card .card__image {
+    height: 250px;
+    width: 100%;
+}
+
+.card .card__info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card .card__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+    width: 100%;
+    margin: 0;
+}
